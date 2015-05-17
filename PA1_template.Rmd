@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "PeerAssessment1"
 author: "Christie"
 date: "Saturday, May 16, 2015"
@@ -12,7 +11,7 @@ This R Markdown document shows the code and output for PeerAssessment1, Reproduc
 (Assumes that the data is in your working directory)
 
 ```{r, echo = TRUE}
-activity<-read.csv("repdata_data_activity/activity.csv")
+activity<-read.csv("activity/activity.csv")
 dim(activity)
 ```
 
@@ -117,29 +116,3 @@ g + facet_grid(Wday ~.) + labs(title = "Avg Number of Steps per Interval - Weeke
 ```
 
 Yes, it appears that the steps are much more evenly distributed across the daytime hours on the weekends.
-=======
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
